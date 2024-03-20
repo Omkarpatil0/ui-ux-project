@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+
+}
+::selection{
+    color: white;
+    background-color: #000;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2vw 5vw;
+}
+#nav #n1 ,#n2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nav h3{
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  color: rgb(120, 117, 117);
+  font-weight: 400;
+}
+#nav #n1 a ,#n2 a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+#mid{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 850px;
+    padding: 2vw 5vw;
+}
+#mid #lside {
+    position: relative;
+    top: 5%;
+    /* overflow: hidden; */
+    display: flex;
+    padding: 1vw 1vw;
+    flex-direction: column;
+    width: 230px;
+    height: 450px;
+    
+}
+#lside #lbox{
+    width: 200px;
+    height: 400px;
+    /* background-image: url('pinkgreenplant.jpg');
+    background-size: cover;
+    background-position: center; */
+    margin: 1vw 0vh;
+}
+#lbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#mid #mside {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 400px;
+    height: 805px;
+}
+#mside #mbox{   
+    display: flex;
+    flex-direction: column;
+    width: 395x;
+    height: 850px;
+    background-image: url('.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 1vw 0vh;   
+
+}
+#mbox img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+#mside h1{
+    position: relative;
+    left: -15%;
+    top:9% ;
+    font-size: 80px;
+    margin: -15px -2px;
+
+}
+#mside .bigtxt{
+    letter-spacing: 2.80px;
+}
+#mside #pa{
+    width: 290px;
+    margin-top:15px ;
+}
+#pa h3{
+    word-wrap: break-word;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#mid #rside {
+    position: relative;
+    right: 4%;
+    display: flex;
+    align-items: center;
+    width: 295px;
+    height: 200px;
+ 
+}
+#rside img{
+   padding: 18px 18px;
+   border-radius: 50%;
+   margin-right: 1vw;
+   border: 1px solid rgb(176, 170, 170);
+
+}
+#rside  #btn{
+    letter-spacing: .5px;
+   font-size: 22px;
+   padding: 8px 15px;
+   border-radius: 5.5px;
+   background-color: #fff;
+   border:1px solid rgb(176, 170, 170);
+}
+
+#middle{
+
+    display: flex;
+    justify-content: space-between;
+     padding: 8vw 6.5vw;
+}
+#middle h3{
+   font-size: 30px;
+   font-weight: 590;
+}
+#middle p{
+    line-height: 1.6;
+    text-align: right;
+    width: 80%;
+    font-size:30px;
+    font-weight: 300;
+    /* font-style: italic; */
+    
+}
+#middle p span{
+    position: relative;
+    left: 2px;
+    top: 7.2px;
+    right: 2px;
+    display: inline-block;
+
+}
+#one{
+    height: 40px;
+    width:  75px ;
+    background-image: url('bluegirl.jpg');
+   background-size: cover;
+   background-position: 0% 50%;
+    border-radius: 20px;
+}
+#two{
+    height: 40px;
+    width:  100px ;
+    background-color: #753c3c;
+    background-image: url('shaljam.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}#three{
+    height: 40px;
+    width:  60px ;
+    background-color: #753c3c;
+    background-image: url('bottle.jpg');
+    background-size: cover;
+    background-position: 0% 80%;
+    border-radius: 20px;
+}
+
+#last{
+    width: 100%;
+    /* background-color: #dadada; */
+    display: flex;
+    justify-content: space-between;
+    padding:4vw 6vw;
+
+}
+#last h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 170px;
+    position: relative;
+    left: 10%;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1.9px rgb(4, 4, 4);
+    letter-spacing: -5px;
+}
+#last #lb {
+    width: 350px;
+    height: 650px;
+
+}
+#lb #li{
+    height: 450px;
+    width: 325px;
+    /* background-image: url('grass.jpg'); */
+    /* background-size: cover; */
+    /* background-position: 0 20%; */
+    
+}
+#last #lb h3{
+   margin-top: 20px;
+   font-size: 30px;
+   font-weight: 400;
+
+}
+#lb p{
+    margin-top: 12px;
+    color: black;
+    font-size: 22px;
+    
+}
+#last #rb{
+    width: 600px;
+    height: 760px;
+   
+}
+#rb #ri{
+    height: 600px;
+    width: 450px; 
+    /* background-image: url('bottle.jpg'); */
+    /* background-size: cover; */
+    /* background-position: 0 70%; */
+ } 
+#last #rb h3{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+ 
+ }
+ #rb p{
+     margin-top: 12px;
+     color: black;
+     font-size: 22px;
+     
+ }
+#footer{
+    position: relative;
+     width: 100%;
+     height: 900px;
+}
+#footer video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+    /* object-position: center; */
+} 
+.fbox{
+    z-index: 9999;
+}
+.fbox h2{
+ color: rgb(0, 0, 0);
+ font-size: 35px;
+ margin: 5px 5px;
+ letter-spacing: 1px;
+}
+.fbox #fbtn{
+  font-size: 20px;
+  padding: 12px 15px;
+  border-radius: 30px;
+  border: 1px solid#000;
+}
+#footer .fbox{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    border-radius: 15px;
+   background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 180px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.anime{
+    padding: 2vw 5.2vw;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.anime .abox{
+    overflow: hidden;
+    width: 60vw;
+    height: 780px;
+    
+}
+.abox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 80%;
+}
+ .gpk h3{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+}
+.gpk{
+    width: 400px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+ .gpk p{
+    font-size: 25px;
+    color: #4c4c4c;
+    margin-top: 10px;   
+}
+
+
+#li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#ri video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#n2 #png{
+    margin-right:40px;
+}
+
+
+#btn:hover{ 
+    scale: 90% ;
+    color:rgb(189, 187, 187)c;
+    
+ }
+
+ #ire:hover{ 
+    scale: 90% ;
+    color:rgb(182, 182, 182)c;
+    opacity: 0.50;
+ }
+  
+#nop{
+    width: 2vw;
+    margin-left: 86.4vw;
+    margin-top: 0vw;
+    
+}
+
+#ham{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffffef;
+    position: absolute;
+    top: -21%;
+    z-index: 9;
+    padding: 2vw 5vw;
+    border-bottom: 1px solid #666666;
+}
+
+
+.ht h2{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+  
