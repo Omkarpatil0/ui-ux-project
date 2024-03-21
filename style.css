@@ -182,7 +182,7 @@ html,body{
 #one{
     height: 40px;
     width:  75px ;
-    background-image: url('bluegirl.jpg');
+    background-image: url('media/bluegirl.jpg');
    background-size: cover;
    background-position: 0% 50%;
     border-radius: 20px;
@@ -191,7 +191,7 @@ html,body{
     height: 40px;
     width:  100px ;
     background-color: #753c3c;
-    background-image: url('shaljam.jpg');
+    background-image: url('media/shaljam.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -199,7 +199,7 @@ html,body{
     height: 40px;
     width:  60px ;
     background-color: #753c3c;
-    background-image: url('bottle.jpg');
+    background-image: url('media/bottle.jpg');
     background-size: cover;
     background-position: 0% 80%;
     border-radius: 20px;
